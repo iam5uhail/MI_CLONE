@@ -1,0 +1,28 @@
+.preNav{
+    display: flex;
+    height: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(29,28,28);
+    padding: 1rem 0;
+}
+.preNav a{
+    margin: 1rem;
+    padding: 0.3rem;
+    color: gray;
+    font-size: 1rem;
+    font-family: "Gill sans","Gill sans MT",calibri,"Trebuchet Ms",sans-serif;
+    font-weight: 300;
+}
+.preNav span{
+    color: white;
+    opacity: 0.4;
+}
+.preNav a:hover{
+    color: white;
+}
+.preNav svg{
+    margin-top: 3px;
+    position: relative;
+    top: 2px;
+}

@@ -1,0 +1,23 @@
+.productreviewcard{
+    margin: 0.3rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.productreviewcard:hover{
+    box-shadow: 0px 10px 15px rgba(53,53,53,0.365);
+    transform: translateY(-3px);
+}
+.productreviewcard h5{
+    margin:2rem 0 0.5rem 2rem;
+    color:rgb(94,94,94)
+}
+.productreviewcard span{
+    margin:0 2rem;
+    font-size: 1rem;
+    font-family: "Gill sans", "Gill sans MT", calibri, "Trebuchet MS", sans-serif  ;
+    color:rgb(94,94,94)
+}
+.productreviewcard b{
+    color: orangered;
+}
+

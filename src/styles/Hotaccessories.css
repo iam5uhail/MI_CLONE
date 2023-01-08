@@ -1,0 +1,22 @@
+.hotaccessories{
+    display: flex;
+    /* border: 2px solid; */
+    width: 92vw;
+    margin: auto;
+}
+.hotaccessories .hot-1 img{
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 20w;
+}
+.hotaccessories .hot-1 img:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53,53,53,0.365);
+}
+.hotaccessories .hot-2{
+    /* border: 2px solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
